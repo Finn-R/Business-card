@@ -36,10 +36,18 @@ body {
 }
 
 @keyframes example {
+    /*Background*/
   0%   {background-color: #64ffda;}
-  25%  {background-color: whitesmoke;}
+  25%  {background-color: #303841;}
   50%  {background-color: #64ffda;}
-  100% {background-color: whitesmoke;}
+  100% {background-color: #303841;}
+  /*Text*/
+  1%   {color: #303841;}
+  26%  {color: #64ffda;}
+  51%  {color: #303841;}
+  99% {color: #64ffda;}
+}
+
 
 .border-blue {
     border: 1px dotted blue;
